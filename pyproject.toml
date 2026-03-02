@@ -1,0 +1,20 @@
+[project]
+name = "log-analyzer-chatbot"
+version = "0.1.0"
+description = "An AI-enabled security log parser with chatbot interactive explanations of anomalies."
+authors = [
+    {name = "Adam Horeth"}
+]
+license = {text = "Apache 2.0"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.135.1,<0.136.0)",
+    "pysqlite3-binary (>=0.5.4)"
+]
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
